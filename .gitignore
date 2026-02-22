@@ -1,0 +1,28 @@
+# Python
+
+__pycache__/
+
+*.py[cod]
+
+*$py.class
+
+venv/
+
+env/
+
+.env
+
+# GenAI / Large Files
+
+*.log
+
+.cache/
+
+.pytest_cache/
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
+# Docker
+.dockerignore
