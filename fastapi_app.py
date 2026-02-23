@@ -39,6 +39,8 @@ app = FastAPI(
 
 @app.get("/health", summary="Health check")
 def health():
+    print("up and running")
+    return {"status": "ok"}
     return {"status": "ok"}
 
 
