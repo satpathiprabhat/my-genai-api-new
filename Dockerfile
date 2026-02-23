@@ -15,7 +15,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 # (The .dockerignore file will stop .env from being copied here)
 COPY . .
 
-# 6. Expose the app port
+# 6. Expose the app port in VM
 EXPOSE 8000
 
 # 7. Run the application
